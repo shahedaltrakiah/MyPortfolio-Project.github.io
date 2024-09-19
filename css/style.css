@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*----------- General -------------*/
+
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+}
+
+a {
+    color: #0563bb;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 2.986rem;
+}
+
+h2 {
+    font-size: 2.488rem;
+}
+
+h3 {
+    font-size: 2.074rem;
+}
+
+h4 {
+    font-size: 1.728rem;
+}
+
+h5 {
+    font-size: 1.44rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.small {
+    font-size: 0.8rem;
+}
+
+/*----------- Header -------------*/
+
+.main {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    margin-top: 150px;
+    position: fixed;
+}
+
+.nav-items {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-items li {
+    margin-bottom: 10px;
+}
+
+.nav-items span {
+    margin-left: 10px;
+}
+
+.nav-link,
+.nav-link:focus {
+    display: flex;
+    align-items: center;
+    color: #45505b;
+    padding: 10px 18px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    border-radius: 50px;
+    background: #f2f3f5;
+    height: 56px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav-link i,
+.nav-link :focus i {
+    font-size: 20px;
+}
+
+.nav-link span,
+.nav-link:focus span {
+    padding: 0 5px 0 7px;
+    color: #45505b;
+}
+
+@media (min-width: 992px) {
+
+    .navbar a,
+    .navbar a:focus {
+        width: 56px;
+    }
+
+    .navbar a span,
+    .navbar a:focus span {
+        display: none;
+        color: #fff;
+    }
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+    color: #fff;
+    background: #0563bb;
+}
+
+.navbar a:hover span,
+.navbar .active span,
+.navbar .active:focus span,
+.navbar li:hover>a span {
+    color: #fff;
+}
+
+.navbar a:hover,
+.navbar li:hover>a {
+    width: 100%;
+    color: #fff;
+}
+
+.navbar a:hover span,
+.navbar li:hover>a span {
+    display: block;
+}
+
+.hero-section {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 160px;
+}
+
+.hero-section h1 {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 60px;
+    color: #45505b;
+}
+
+.hero-section p {
+    font-size: 25px;
+    font-weight: 400px;
+    line-height: 50px;
+}
+
+.hero-section span {
+    font-size: 25px;
+    font-weight: 400px;
+    line-height: 40px;
+    color: #0563bb;
+}
+
+.hero-section i {
+    font-size: 25px;
+}
+
+.github {
+    margin-left: 10px;
+}
+
+.about {
+    margin-top: 220px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #45505b;
+}
+
+.section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #0563bb;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+.about-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: -70px;
+}
+
+.about img {
+    width: 250px;
+    height: 350px;
+}
+
+.content {
+    margin-left: -180px;
+}
+
+.about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #728394;
+    text-align: left;
+    margin-top: -6px;
+    margin-bottom: 30px;
+}
+
+.about .content ul {
+    list-style: none;
+    margin-right: 160px;
+}
+
+.about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about .content ul strong {
+    margin-right: 10px;
+}
+
+.about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #0563bb;
+    line-height: 0;
+}
+
+.about .content p:last-child {
+    margin-bottom: 0;
+    text-align: left;
+    margin-right: 30px;
+}
+
+.skills{
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-body{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: (1,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
+
+.skills-body p{
+    color: #45505b;
+    text-align: left;
+    
+}
+
+.container {
+    width: 500px;
+    height: 20px;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    height: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.html {
+    width: 100%;
+    background-color: #0563bb;
+}
+
+.css {
+    width: 100%;
+    background-color: #0563bb;
+}
+
+.js {
+    width: 80%;
+    background-color: #0563bb;
+}
+
+.Python {
+    width: 85%;
+    background-color: #0563bb;
+}
+
+.Java{
+    width: 80%;
+    background-color: #0563bb;
+}
+
+.Teamwork {
+    width: 100%;
+    background-color: #0563bb;
+}
+
+.Time {
+    width: 100%;
+    background-color: #0563bb;
+}
+
+.Leadership {
+    width: 100%;
+    background-color: #0563bb;
+}
+
+.Communication {
+    width: 100%;
+    background-color: #0563bb;
+}
+
+.Figma {
+    width: 75%;
+    background-color: #0563bb;
+}
+
+.portfolio{
+    margin-bottom: 30px;
+}
+
+.contact-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.left-side {
+    width: 30%;
+    padding: 20px;
+}
+
+.info i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.info h4 {
+    display: inline-block;
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.info p {
+    margin: 5px 0 20px 30px;
+    font-size: 16px;
+    color: #777;
+}
+
+.right-side {
+    width: 65%;
+    padding: 20px;
+}
+
+.form-group input, .form-group textarea {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0563bb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45505b;
+}
+
+.text-center {
+    text-align: center;
+}
