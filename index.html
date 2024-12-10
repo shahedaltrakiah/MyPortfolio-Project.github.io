@@ -2,301 +2,532 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/document.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css">
-    <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title> My Portfolio </title>
+
+  <link rel="shortcut icon" href="img/document.png" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <button type="button" class="mobile-nav-toggle d-xl-none">
-        <i class="fa-solid fa-bars"></i>
-    </button>
+  <button type="button" class="mobile-nav-toggle d-xl-none">
+    <i class="bi bi-list"></i>
+  </button>
 
-    <header id="header" class="header">
-        <nav class="navbar">
-            <ul class="nav-items">
-                <li><a href="#hero" class="nav-link active">
-                        <i class="fa-solid fa-house"></i>
-                        <span>Home</span></a>
-                </li>
-                <li><a href="#about" class="nav-link ">
-                        <i class="fa-regular fa-user"></i> <span>About</span></a>
-                </li>
-                <li><a href="#Skills" class="nav-link ">
-                        <i class="fa-solid fa-brain"></i> <span>Skills</span></a>
-                </li>
-                <li><a href="#portfolio" class="nav-link ">
-                        <i class="fa-solid fa-bars-progress"></i> <span>Projects</span>
-                    </a>
-                </li>
-                <li><a href="#contact" class="nav-link ">
-                        <i class="fa-regular fa-envelope"></i> <span>Contact</span></a>
-                </li>
-            </ul>
-        </nav>
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active">
+          <i class="fa-solid fa-house"></i><span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto">
+          <i class="fa-regular fa-user"></i><span>About</span></a></li>
+        <li><a href="#skills" class="nav-link scrollto">
+          <i class="fa-solid fa-brain"></i><span>Skills</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto">
+          <i class="fa-solid fa-bars-progress"></i><span>Portfolio</span></a></li>
+        <li><a href="#testimonials" class="nav-link scrollto">
+          <i class="fa-brands fa-rocketchat"></i><span>Testimonials</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto">
+          <i class="fa-regular fa-envelope"></i><span>Contact</span></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    </header>
 
-    <section id="hero">
-        <div>
-            <h1><b> SHAHED ALTRAKIAH </b></h1>
-            <p> I'm <span> Full Stack Developer </span> </p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/shahed-al-trakiah-a31b85207/" class="linkedin">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/shahedaltrakiah" class="github">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </div>
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>SHAHED ALTRAKIAH</h1>
+      <p>I'm <span class="typed" data-typed-items=" Full Stack Developer , Freelancer "></span></p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/shahed-altarakiah-a31b85207/" class="linkedin"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/shahedaltrakiah" class="github">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p> Hello, I'm Shahed Altrakiah, a fresh graduate in Computer Information Systems (CIS).</p>
         </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="assets/img/Shahed Altarakieh.JPG" class="img-fluid" alt="profile_img">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Full-stack Developer Trainee at Orange Coding Academy.</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>23 March 2002</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nationality:</strong> <span>Jordanian</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+962 772694977</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Amman, Jordan</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>shahedaltrakiah@gmail.com</span>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              I'm always excited to take on new challenges and projects. I'm committed to continuous learning and
+              staying up-to-date with the latest industry trends and technologies.
+              My goal is to be the best in my job and inshallah I will do it.
+            </p>
+          </div>
+        </div>
+
+      </div>
     </section>
 
-    <main id="main">
+    <!-- ======= Skills Section ======= -->
 
-        <section id="about" class="about">
-            <div class="section-title">
-                <h2>About</h2>
-                <p>Hello, I'm Shahed Altrakiah, a fresh graduate in Computer Information Systems (CIS). </p>
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
             </div>
 
-            <div class="about-body">
-                <div class="profile-img">
-                    <img src="img/Shahed Altarakieh.JPG" alt="profile-img">
+            <div class="progress">
+              <span class="skill">CSS <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
                 </div>
-                <div class="content">
-                    <h3> Full-stack Developer Trainee at Orange Coding Academy. </h3>
-                    <table style="margin-top: 20px;">
-                        <tr>
-                            <td>
-                                <ul>
-                                    <li><i class="fa-solid fa-caret-right"></i> <strong>Birthday:</strong> <span>23
-                                            March
-                                            2002</span></li>
-                                    <li><i class="fa-solid fa-caret-right"></i><strong>Nationality:</strong>
-                                        <span>Jordanian</span>
-                                    </li>
-                                    <li><i class="fa-solid fa-caret-right"></i> <strong>Phone:</strong> <span>+962
-                                            772694977</span></li>
-                                    <li><i class="fa-solid fa-caret-right"></i> <strong>City:</strong> <span>Amman,
-                                            Jordan</span></li>
-                                </ul>
-                            </td>
-                            <td>
-                                <ul class="col-1">
-                                    <li><i class="fa-solid fa-caret-right"></i> <strong>Age:</strong> <span>22</span>
-                                    </li>
-                                    <li><i class="fa-solid fa-caret-right"></i> <strong>Degree:</strong>
-                                        <span>Bachelor</span>
-                                    </li>
-                                    <li><i class="fa-solid fa-caret-right"></i> <strong>Email:</strong>
-                                        <span>shahedaltrakiah@gmail.com</span>
-                                    </li>
-                                    <li><i class="fa-solid fa-caret-right"></i> <strong>Freelance:</strong>
-                                        <span>Available</span>
-                                    </li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </table>
-                    <p>
-                        I'm always excited to take on new challenges and projects. I'm committed to continuous learning
-                        and staying up-to-date with the latest industry trends and technologies.
-                        My goal is to be the best in my job and inshallah I will do it.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section id="Skills" class="Skills">
-            <div class="section-title">
-                <h2>Skills</h2>
+              </div>
             </div>
 
-            <div class="skills-body">
-                <div class="skills-left">
-                    <p>HTML</p>
-                    <div class="container">
-                        <div class="skills html">100%</div>
-                    </div>
-
-                    <p>CSS</p>
-                    <div class="container">
-                        <div class="skills css">100%</div>
-                    </div>
-
-                    <p>JavaScript</p>
-                    <div class="container">
-                        <div class="skills js">80%</div>
-                    </div>
-
-                    <p>Python</p>
-                    <div class="container">
-                        <div class="skills Python">85%</div>
-                    </div>
-
-                    <p>Java</p>
-                    <div class="container">
-                        <div class="skills Java">80%</div>
-                    </div>
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                 </div>
-
-                <div class="skills-right">
-
-                    <p>Teamwork</p>
-                    <div class="container">
-                        <div class="skills Teamwork">100%</div>
-                    </div>
-
-                    <p>Time management</p>
-                    <div class="container">
-                        <div class="skills Time">100%</div>
-                    </div>
-
-                    <p>Leadership</p>
-                    <div class="container">
-                        <div class="skills Leadership">100%</div>
-                    </div>
-
-                    <p>Communication skills</p>
-                    <div class="container">
-                        <div class="skills Communication">100%</div>
-                    </div>
-
-                    <p>Figma</p>
-                    <div class="container">
-                        <div class="skills Figma">75%</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="portfolio" class="portfolio">
-            <div class="section-title">
-                <h2>Projects</h2>
-                <p>Feel free to explore my portfolio to see some of the projects I've worked on.</p>
+              </div>
             </div>
 
-            <div class="portfolio-body">
-                <div class="card">
-                    <img src="img/MedKit.png" alt="Project 1">
-                    <div class="card-overlay">
-                        <a href="project-details1.html" class="btn" title="More Details"><i
-                                class="fa-solid fa-plus"></i></a>
-                        <a href="https://shahedaltrakiah.github.io/MedKit.github.io/" target="_self" class="btn"
-                            title="Visit Website"><i class="fa-solid fa-link"></i></a>
-                    </div>
+            <div class="progress">
+              <span class="skill">Python <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
                 </div>
-
-                <div class="card">
-                    <img src="img/مدرستي.png" alt="Project 2">
-                    <div class="card-overlay">
-                        <a href="project-details2.html" class="btn" title="More Details"><i
-                                class="fa-solid fa-plus"></i></a>
-                        <a href="https://shahedaltrakiah.github.io/Mdristi-App.github.io/" target="_self" class="btn"
-                            title="Visit Website"><i class="fa-solid fa-link"></i> </a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="img/Burger.jpg" alt="Project 3" style="object-fit: cover;">
-                    <div class="card-overlay">
-                        <a href="project-details3.html" class="btn" title="More Details"><i
-                                class="fa-solid fa-plus"></i></a>
-                        <a href="https://shahedaltrakiah.github.io/Burger-website.github.io/" target="_self" class="btn"
-                            title="Visit Website"><i class="fa-solid fa-link"></i> </a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="img/airbnb.png" alt="Project 4">
-                    <div class="card-overlay">
-                        <a href="project-details4.html" class="btn" title="More Details"><i
-                                class="fa-solid fa-plus"></i></a>
-                        <a href="https://shahedaltrakiah.github.io/airbnb.github.io/" target="_self" class="btn"
-                            title="Visit Website"><i class="fa-solid fa-link"></i> </a>
-                    </div>
-                </div>
-
+              </div>
             </div>
-        </section>
 
-        <section id="contact" class="contact">
-            <div class="section-title">
-                <h2>Contact</h2>
-                <p>If you're interested in collaborating or have any questions, don't hesitate to get in touch with me.
-                    <br> Let's connect and create something amazing together!
+            <div class="progress">
+              <span class="skill">Java <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"> Teamwork <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill"> Time management <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Leadership <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Communication skills <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Figma <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Projects Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Feel free to explore my portfolio to see some of the projects I've worked on.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">App</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/MedKit.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4> MedKit </h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/MedKit.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="A MedKit website is a platform that provides information related to first aid, emergency response, and general health and safety topics."><i
+                      class="bx bx-plus"></i></a>
+                  <a href="https://shahedaltrakiah.github.io/MedKit.github.io/" class="portfolio-details-lightbox"
+                    data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/مدرستي.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>مدرستي </h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/مدرستي.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Welcome to مدرستي App, your all-in-one solution for seamless student enrollment and school administration. This app streamlines the process of applying to schools and managing student records, ensuring a hasslefree experience for both students and educational institutions."><i
+                      class="bx bx-plus"></i></a>
+                  <a href="https://shahedaltrakiah.github.io/Mdristi-App.github.io/" class="portfolio-details-lightbox"
+                    data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/iHelp.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>iHelp - students with special needs service </h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/iHelp.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Welcome to مدرستي App, your all-in-one solution for seamless student enrollment and school administration. This app streamlines the process of applying to schools and managing student records, ensuring a hasslefree experience for both students and educational institutions."><i
+                      class="bx bx-plus"></i></a>
+                  <a href="https://shahedaltrakiah.github.io/iHelp.github.io/" class="portfolio-details-lightbox"
+                    data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Burger.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Fast Food Restaurant </h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Burger.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Welcome to مدرستي App, your all-in-one solution for seamless student enrollment and school administration. This app streamlines the process of applying to schools and managing student records, ensuring a hasslefree experience for both students and educational institutions."><i
+                      class="bx bx-plus"></i></a>
+                  <a href="https://shahedaltrakiah.github.io/Burger-website.github.io/"
+                    class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/airbnb.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Airbnb </h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/airbnb.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Welcome to مدرستي App, your all-in-one solution for seamless student enrollment and school administration. This app streamlines the process of applying to schools and managing student records, ensuring a hasslefree experience for both students and educational institutions."><i
+                      class="bx bx-plus"></i></a>
+                  <a href="https://shahedaltrakiah.github.io/airbnb.github.io/" class="portfolio-details-lightbox"
+                    data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/zomato.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Zomato Food Restaurant </h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/zomato.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Welcome to مدرستي App, your all-in-one solution for seamless student enrollment and school administration. This app streamlines the process of applying to schools and managing student records, ensuring a hasslefree experience for both students and educational institutions."><i
+                      class="bx bx-plus"></i></a>
+                  <a href="https://shahedaltrakiah.github.io/ZomataResturant.github.io/"
+                    class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Roya.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Roya News </h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Roya.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Welcome to مدرستي App, your all-in-one solution for seamless student enrollment and school administration. This app streamlines the process of applying to schools and managing student records, ensuring a hasslefree experience for both students and educational institutions."><i
+                      class="bx bx-plus"></i></a>
+                  <a href="https://shahedaltrakiah.github.io/RoyanewsWebsite.github.io/"
+                    class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i
+                      class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Discover how my clients and partners feel about working with me.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper init-swiper">
+          <div class="swiper-wrapper">
+            <!-- Testimonial 1 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Working with Shahed was a fantastic experience. Her attention to detail and ability to solve complex
+                  problems with simple solutions is remarkable. Our project was delivered on time and exceeded
+                  expectations!
+                  <i class="bi bi-quote quote-icon-right"></i>
                 </p>
+                <h3>Dana</h3>
+              </div>
             </div>
 
-            <div class="contact-body">
-                <div class="left-side">
-                    <div class="info">
-                        <div class="address">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <h4>Location:</h4>
-                            <p>Bader Aljadedah, Amman</p>
-                        </div>
-
-                        <div class="email">
-                            <i class="fa-solid fa-paper-plane"></i>
-                            <h4>Email:</h4>
-                            <p>shahed.s3d23@gmail.com</p>
-                        </div>
-
-                        <div class="phone">
-                            <i class="fa-solid fa-phone"></i>
-                            <h4>Call:</h4>
-                            <p>+962 772694977</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="right-side">
-                    <form>
-                        <div class="row">
-                            <div class="form-group" style="width: 48%;">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                    required style="width: 100%; padding: 10px;">
-                            </div>
-                            <div class="form-group" style="width: 48%;">
-                                <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="Your Email" required style="width: 100%; padding: 10px;">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                required style="width: 100%; padding: 10px; margin-top: 15px;">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required
-                                style="width: 100%; padding: 10px; margin-top: 15px;"></textarea>
-                        </div>
-                        <div class="text-center" style="margin-top: 20px;">
-                            <button type="submit" class="btn">Send Message</button>
-                        </div>
-                    </form>
-                </div>
+            <!-- Testimonial 2 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Shahed's creativity and technical expertise brought our vision to life. The web platform she built is
+                  not only beautiful but also incredibly user-friendly. We’ve received amazing feedback from our users!
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <h3>Ahmad</h3>
+              </div>
             </div>
-        </section>
 
-    </main>
+            <!-- Testimonial 3 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Her professionalism and dedication to the project were impressive. From concept to completion, Shahed
+                  kept us informed every step of the way and delivered a flawless final product.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <h3>Saad</h3>
+              </div>
+            </div>
 
-    <script>
-        const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
-        const header = document.querySelector('#header');
+            <!-- Testimonial 4 -->
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Shahed’s ability to combine technical skills with creative design truly set her apart. Our team loved
+                  working with her and we’re excited to collaborate again in the future.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <h3>Leen</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
 
-        mobileNavToggle.addEventListener('click', function () {
-            document.body.classList.toggle('mobile-nav-active');
-            header.classList.toggle('mobile-nav-active');
-        });
 
-    </script>
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title ">
+          <h2>Contact</h2>
+          <p>If you're interested in collaborating or have any questions, don't hesitate to get in touch with
+            me. Let's connect and create something amazing together!</p>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-lg-3">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p> Bader Aljadedah, Amman</p>
+              </div>
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>shahed.s3d23@gmail.com</p>
+              </div>
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+962 772694977</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <form class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new Swiper('.init-swiper', {
+        loop: true,
+        speed: 600,
+        autoplay: {
+          delay: 5000
+        },
+        slidesPerView: 1,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        }
+      });
+    });
+  </script>
+
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="assets/js/main.js"></script>
 
 </body>
 
